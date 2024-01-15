@@ -1,0 +1,10 @@
+body{
+    font-family: sans-serif;
+    background-color: aqua;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+}

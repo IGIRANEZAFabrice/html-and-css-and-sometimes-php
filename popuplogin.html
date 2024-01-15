@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="popup.css">
+	<title>popup</title>
+</head>
+<body>
+	<div class="container">
+		<button type="submit" class="btn" onclick="openPopup()">LOGIN</button>
+		<div class="popup" id="popup">
+			<h2>login</h2>
+			<input type="text" id="username" name="username" placeholder="Enter your username" required>
+			<input type="password" id="password" name="password" placeholder="Enter your password" required>
+			<button type="submit">login</button>
+			<button type="button" onclick="closePopup()">dismiss</button>
+		</div>
+	</div>
+	<script>
+		
+		let popup = document.getElementById("popup");
+
+		function openPopup(){
+			popup.classList.add("open-popup");
+		}
+
+		function closePopup(){
+			popup.classList.remove("open-popup");
+		}
+	</script>
+</body>

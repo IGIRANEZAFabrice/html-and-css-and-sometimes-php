@@ -1,0 +1,20 @@
+body{
+	background-color:#1c2a44;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 300px;
+}
+button{
+	width: 150px;
+	height: 40px;
+	border: 2px solid darkcyan;
+	border-radius: 30px;
+	background-color: darkcyan;
+	color: #fff;
+	padding: 10px 20px;
+	cursor:pointer ;
+}
+input:hover{
+
+}
